@@ -8,7 +8,7 @@ body {
 }
 
 .app_cold {
-  height: 107vh;
+  padding-bottom: 50px;
   background: linear-gradient( rgb(0, 0, 0, 0), rgb(0 0 0 / 84%)), url(./img/cold.jpg) top no-repeat;
   background-size: cover;
 }
