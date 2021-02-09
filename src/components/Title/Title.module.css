@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.title {
+  margin-top: 0;
+  padding-top: 10%;
+  padding-bottom: 7%;
+  font: 400 35px/37px Montserrat, sans-serif;
+  text-align: center;
+}

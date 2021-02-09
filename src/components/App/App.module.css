@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+}
+
+.wrap {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.app_cold {
+  height: 107vh;
+  background: linear-gradient( rgb(0, 0, 0, 0), rgb(0 0 0 / 84%)), url(./img/cold.jpg) top no-repeat;
+  background-size: cover;
+}
+
+
+.app_warm {
+  height: 107vh;
+  background: linear-gradient( rgb(0, 0, 0, 0), rgb(0 0 0 / 84%)), url(./img/warm.jpg) top no-repeat;
+  background-size: cover;
+}

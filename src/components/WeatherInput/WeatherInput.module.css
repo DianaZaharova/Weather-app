@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+.wrap {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 62px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.input {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 7px;
+
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: #00000026 0px 5px 12px 0px;
+  transition: all .3s ease;
+
+  color: #313131;
+  font: 400 20px Montserrat, sans-serif;
+
+  border: none;
+  outline: none;
+  appearance: none;
+}
+
+.input:focus {
+  background-color: rgba(255, 255, 255, 0.698);
+}
+
+.button {
+  width: 100%;
+  padding: 8px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: #00000026 0px 5px 12px 0px;
+  color: #313131c2;;
+  font: 400 20px Montserrat, sans-serif;
+  border-radius: 3px;
+  transition: all .3s ease;
+
+  border: none;
+  outline: none;
+}
+
+.button:hover {
+  box-shadow: #00000063 0px 5px 12px 0px;
+  background-color: rgba(255, 255, 255, 0.698);
+}

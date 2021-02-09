@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+
+
+.date,
+.city,
+.country {
+  color: #fff;
+  font: 400 25px Montserrat, sans-serif;
+  text-align: center;
+}
+
+.date {
+  margin-bottom: 30px;
+}

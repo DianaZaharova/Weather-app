@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
+.card_wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card {
+  border-radius: 3px;
+  background-color: rgba(255, 255, 255, 0.2);
+  box-shadow: #00000026 0px 5px 12px 0px;
+  width: 80%;
+  height: 153px;
+  margin-bottom: 40px;
+}
+
+.error {
+  color: #fff;
+  font: 500 34px Montserrat, sans-serif;
+  text-align: center;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.title {
+  color: #fff;
+  font: 400 31px Montserrat, sans-serif;
+  margin: 3% 0 0 0;
+  text-align: center;
+}
+
+.temp,
+.feelsLike {
+  color: #fff;
+  font: 400 69px Montserrat, sans-serif;
+  margin: 0;
+  text-align: center;
+}
+
+.weather {
+  text-transform: uppercase;
+  color: #fff;
+  font: 700 35px Montserrat, sans-serif;
+  text-align: center;
+  margin: 0;
+}
