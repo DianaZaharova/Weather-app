@@ -21,7 +21,7 @@ class App extends React.Component {
     e.preventDefault();
     const city = e.target.elements.city.value;
     const weatherData = await
-      fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=ru&appid=531820fb97d6eba87f4690ba2eec5a2c`)
+      fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&lang=ru&appid=531820fb97d6eba87f4690ba2eec5a2c`)
         .then(res => res.json())
 
     if (city) {
